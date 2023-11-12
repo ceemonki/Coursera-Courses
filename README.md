@@ -1,2 +1,2 @@
-# module-2-solution
-Module-2 Solution
+# General Coursera Courses
+Coursera Courses
