@@ -1,0 +1,97 @@
+body {
+    font-size: 16px;
+    background-color: #eda361;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** Header **/
+#header-nav {
+    background-color: #add8e6;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1{  /*Company Name*/
+    color: #eda361;
+    text-shadow: 1px 1px 1px #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-header button.navbar-toggle {
+    margin-top: -25px;
+    clear: both;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+
+#nav-list a {
+    color: #000000;
+    font-size: 1.5em;
+
+}
+#nav-list a:hover {
+    background: #ffffff;
+}
+.navbar-default .navbar-collapse {
+    border: 0;
+}
+
+#menu-header h2{
+    font-size: 2.3em;
+    font-weight: 800;
+}
+
+#category-item {
+    margin-bottom: 20px;
+}
+.category-description {
+    background-color: lightpink;
+    font-weight: 600;
+}
+
+.category-description .p1, .category-description .p2, .category-description .p3 {
+    margin: 15px 0 0 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.category-details {
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
+}
+.category-details p {
+    padding-bottom:  10px;
+}
+#category-item a {
+    text-align: center;
+}
+
+
+
+/*   Desktop Devices-lg   */
+@media (min-width: 768px) {
+    #header-nav {
+        height: 67px;
+    }
+
+}
+
+
+/*   Tablet Devices-sm   */
+@media (min-width: 768) {
+    #header-nav {
+        height: 67px;
+    }
+}
+
+
+
+/*   Mobile Devices-xs   */
